@@ -19,7 +19,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://project-marketplace-backend-d3dt.onrender.com",
+  baseURL: "https://project-marketplace-backend-d3dt.onrender.com/api",
 });
 
 // Automatically attach JWT to every request
